@@ -1,0 +1,52 @@
+div {
+    margin: 0 auto;
+}
+p {
+    margin: 0 auto;
+}
+
+li {
+    list-style:none outside none;
+    margin-left: 0px;
+    display: block;
+}
+body {
+    background-color: #F6F6F6;
+}
+.top {
+    height:40px;
+    background: transparent url(../img/nav_bg.png);
+}
+.top .nav {
+    float: right;
+    margin: 0;
+}
+.top .nav {
+    display: inline;
+}
+.top .nav li {
+    display: inline;
+}
+
+.pic {
+    width:492px;
+}
+.tip {
+    margin-top:15px;
+}
+
+.footer {
+    height:40px;
+    background: transparent url(../img/nav_bg.png);
+}
+.footer .footnav {
+    padding-top:10px;
+}
+.footer .nav {
+    display: inline;
+
+}
+
+.footer .nav li {
+    display: inline;
+}

@@ -1,0 +1,93 @@
+
+.banner {
+    height:110px;
+}
+.current {
+    
+}
+.current h3{
+    margin: 0px auto;
+}
+.current ul{
+    margin-top:0px;
+    padding-left:0px;
+}
+.current li {
+    /*display: inline;*/
+    width:220px;
+    float:left;
+    margin-bottom:7px;
+}
+.current ul li .name {
+    float:left;
+}
+.current ul li .data {
+    float:right;
+}
+
+
+.latest {
+    
+}
+.latest h3{
+    margin: 0px auto;
+}
+.latest ul{
+    display: block;
+    margin-top:10px;
+    padding-left:3px;
+    padding-right:3px;
+
+}
+.latest li {
+    display: block;
+    margin-right:4px;
+    margin-left:4px;
+    margin-bottom:10px;
+    width:90px;
+    float:left;
+}
+
+.latest ul li .img img {
+    display: block;
+    height:50px;
+    width:50px;
+    margin: 0px auto;
+}
+
+
+.latest ul li .name {
+    text-align: center;
+}
+.login h3{
+    margin: 0px auto;
+}
+.login .desc {
+    margin-top:5px;
+    margin-bottom: 5px;
+    width:160px;
+    margin-left:0px;
+    float: left;
+}
+.login .desc div {
+    display: inline;
+    width:40px;
+    float: left;
+}
+.login input.login {
+    margin-top:20px;
+    margin-left:5px;
+    width:80px;
+    height:80px;
+}
+.reg a{
+    display: block;
+background: url(../img/regbtn.png) no-repeat 0 0;
+width: 196px;
+height: 52px;
+text-indent:-999em;
+}
+
+.reg a:hover {
+background-position: 0 -52px;
+}

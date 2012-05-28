@@ -1,0 +1,136 @@
+.top {
+    position: fixed;
+    top:0px;
+    margin: 0px auto;
+    width:100%;
+}
+
+.top > div {
+    margin-top:10px;
+}
+.mainpage {
+    margin-top: 50px;
+}
+
+.send {
+    padding: 0px 20px;
+}
+.send ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.send li {
+display: inline;
+}
+
+.send input[type="text"] {
+    height:5em;
+    display: block;
+    width:100%;
+    margin-bottom:7px;
+}
+.send .compoments{
+    margin-top:7px;
+}
+.send .attachment{
+    margin-top: 6px;
+}
+.send .tips {
+    float:right;
+        margin-top: 7px;
+}
+.send .btn_send{
+    float:right;
+    width:100px;
+    height:35px;
+}
+
+
+.main .timeline ul{
+    padding-left: 0px;
+}
+.main .timeline ul.content .info {
+    float: left;
+}
+.main .timeline ul.content .img {
+    height:50px;
+    width:50px;
+    margin-right: 10px;
+    float:left;
+}
+
+.main .timeline ul.content > li {
+    border-bottom: 2px dashed #999;
+    margin-bottom:10px;
+}
+.main .timeline ul.content .func {
+    float: right;
+    margin: 0px;
+}
+.main .timeline ul.content .func li{
+    display: inline;
+}
+
+.main .timeline .forward {
+    float: left;
+    padding-left:15px;
+    font-size:11px;
+}
+
+.main .reply {
+    margin: 5px 0px;
+}
+.main .reply input.reply {
+    width:500px;
+}
+.side .profile{
+
+}
+
+#btn_new_idea {
+    display: block;
+    float: right;
+    width: 113px;
+    height: 52px;
+    overflow: hidden;
+    border: none;
+    padding: 0;
+    text-indent: -999em;
+    background: transparent url(../images/btn_il_new.png) no-repeat 0 0;
+}
+    #btn_new_idea:hover { background-position: 0 -54px; }
+    #btn_new_idea:active { background-position: 0 -108px; }
+.side .profile .img {
+    margin:0px;
+    margin-left:10px;
+    width:180px;
+    height:180px;
+    float: left;
+}
+.side .profile .img img {
+    height: 180px;
+    width: 180px;
+}
+.side .profile .name {
+    text-align: center;
+    margin-top:5px;
+}
+
+
+.side .profile .status > div {
+    float:right;
+    width:100px;
+    font-size: 14px;
+}
+
+.side .func .hot ul {
+    padding-left:20px;
+    padding-right:20px;
+}
+.side .func .hot li{
+    float:left;
+    margin:0px;
+    width:75px;
+    padding-right:10px;
+}
