@@ -87,7 +87,8 @@ public class MainServlet implements Routee  {
         out.println("<a href=\"../index.html\">");
         out.println("<img src=\"../images/return.gif\" height=24 " +
                     "width=24 align=right border=0 alt=\"return\"></a>");
-        out.println("<h1>" + title + "</h1>");
+        out.println("<h1>" + args.get(0) + "</h1>");
+        out.println(request.getPathInfo());
         out.println("</body>");
         out.println("</html>");
     }
